@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EditProfileActivity"
+    tools:showIn="@layout/activity_edit_profile"><![CDATA[
+
+    />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="8dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Bio: "
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <EditText
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:inputType="text"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView5"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+</android.support.constraint.ConstraintLayout>

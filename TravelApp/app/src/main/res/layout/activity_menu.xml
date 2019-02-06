@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.travel.travelapp.MenuActivity">
+    <LinearLayout
+        android:background="@drawable/pitt_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtBucketList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Pittsburgh Travel App"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:paddingBottom="30dp"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/mapButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickMapButton"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Map" />
+
+        <Button
+            android:id="@+id/bucketButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickBucketButton"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Bucket List" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickProfileButton"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/sendBroadcastButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickBroadcastButton"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Check Stock Balance" />
+
+        <Button
+            android:id="@+id/checkStockPriceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickCheckStockPrice"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Check Stock Price" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addNameToContentProvider"
+            android:onClick="clickScoreButton"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Add item to list"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
